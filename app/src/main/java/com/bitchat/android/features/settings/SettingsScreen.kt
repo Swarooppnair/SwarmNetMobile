@@ -79,7 +79,7 @@ fun SettingsScreen(chatViewModel: ChatViewModel) {
                 Button(
                     onClick = {
                         pendingSOSType = null
-                        chatViewModel.triggerSOS()
+                        chatViewModel.triggerSOS(sosTypeLabel = type.label, sosTypeIcon = type.icon)
                         sosActive = true
                         cooldownActive = true
                         cooldownSeconds = 30

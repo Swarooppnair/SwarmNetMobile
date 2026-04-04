@@ -362,7 +362,7 @@ class ChatViewModel(
         }
     }
     
-    fun triggerSOS() {
+    fun triggerSOS(sosTypeLabel: String? = null, sosTypeIcon: String? = null) {
         viewModelScope.launch {
             try {
                 val nickname = state.getNicknameValue() ?: meshService.myPeerID
@@ -383,10 +383,11 @@ class ChatViewModel(
                     // Broadcast SOS to mesh — receivers will parse this and show it on their map
                     // Do NOT add to local SosAlertStore — sender knows their own location
                     val locationTag = if (geohash.isNotEmpty()) " [#$geohash]" else ""
-                    val sosMessage = "🚨 SOS$locationTag — @$nickname needs help"
+                    val typeTag = if (sosTypeLabel != null && sosTypeIcon != null) " [$sosTypeIcon $sosTypeLabel]" else ""
+                    val sosMessage = "🚨 SOS$locationTag$typeTag — @$nickname needs help"
                     meshService.sendMessage(sosMessage, emptyList(), null)
 
-                    Log.d(TAG, "SOS triggered: lat=$lat lon=$lon geohash=$geohash")
+                    Log.d(TAG, "SOS triggered: lat=$lat lon=$lon geohash=$geohash type=$sosTypeLabel")
                 }
             } catch (e: Exception) {
                 Log.e(TAG, "SOS trigger failed", e)

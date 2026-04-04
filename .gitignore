@@ -1,0 +1,44 @@
+# Project-wide Gradle settings
+.gradle/
+build/
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.idea/
+*.iml
+local.properties
+.kotlin/
+.kiro/
+
+# Android-specific
+capture/
+*.ap_
+*.apk
+*.dex
+src/main/assets/
+
+# Keystore
+*.jks
+*.keystore
+
+# External Native Build
+.externalNativeBuild/
+.cxx/
+cmake_install.cmake
+CMakeCache.txt
+CMakeFiles/
+Makefile
+install_manifest.txt
+
+# Google Play Services
+google-services.json
+
+# Crashlytics
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+# Log files
+*.log

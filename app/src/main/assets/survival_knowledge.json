@@ -1,0 +1,180 @@
+[
+  {
+    "id": "bleeding_001",
+    "title": "Severe Bleeding Control",
+    "category": "First Aid",
+    "tags": ["bleeding", "wound", "cut", "emergency", "blood"],
+    "keywords": ["bleed", "blood", "pressure", "hemorrhage", "tourniquet"],
+    "summary": "Immediate action to stop life-threatening bleeding using direct pressure or a tourniquet.",
+    "steps": [
+      "1. Identify the source of bleeding.",
+      "2. Apply firm, steady direct pressure using a clean cloth or gauze.",
+      "3. If bleeding is on a limb and life-threatening, apply a tourniquet 2-3 inches above the wound (between the wound and the heart).",
+      "4. Tighten the tourniquet until bleeding stops completely.",
+      "5. Note the time the tourniquet was applied."
+    ],
+    "warnings": [
+      "Do NOT remove the cloth if soaked; add more on top.",
+      "Do NOT loosen a tourniquet once applied; it must be removed by medical professionals.",
+      "A tourniquet is painful but necessary for life-threatening limb bleeding."
+    ],
+    "whenToSeekHelp": "Always seek emergency medical help for severe bleeding, deep wounds, or if a tourniquet was used."
+  },
+  {
+    "id": "burns_001",
+    "title": "Burn Treatment",
+    "category": "First Aid",
+    "tags": ["burn", "fire", "heat", "scald"],
+    "keywords": ["burn", "fire", "heat", "skin", "blister"],
+    "summary": "Cool the burn and protect the skin from infection.",
+    "steps": [
+      "1. Stop the burning process (remove from heat source).",
+      "2. Cool the burn with cool (not cold/ice) running water for at least 10-20 minutes.",
+      "3. Remove jewelry or tight clothing before area swells.",
+      "4. Cover the burn loosely with a sterile, non-stick bandage or clean plastic wrap.",
+      "5. Keep the person warm to prevent shock."
+    ],
+    "warnings": [
+      "Do NOT use ice, butter, or ointments on a fresh burn.",
+      "Do NOT pop blisters; they protect against infection."
+    ],
+    "whenToSeekHelp": "Seek help if the burn is larger than the person's palm, on the face/hands/feet, or if it appears charred (white/black)."
+  },
+  {
+    "id": "fracture_001",
+    "title": "Fractures & Sprains",
+    "category": "First Aid",
+    "tags": ["fracture", "broken bone", "sprain", "injury"],
+    "keywords": ["bone", "break", "fracture", "sprain", "splint"],
+    "summary": "Immobilize the injured area to prevent further damage.",
+    "steps": [
+      "1. Do not try to realign the bone.",
+      "2. Control any bleeding first.",
+      "3. Apply a splint to the area above and below the joint to keep it from moving.",
+      "4. Use padding (cloth, clothing) to make the splint comfortable.",
+      "5. Apply ice packs wrapped in cloth to reduce swelling (20 mins on/off)."
+    ],
+    "warnings": [
+      "Do NOT move the person if a spinal or neck injury is suspected.",
+      "Do NOT test the limb's ability to 'bear weight' if a break is suspected."
+    ],
+    "whenToSeekHelp": "Seek immediate help if the bone is protruding, the limb is deformed, or there is loss of sensation/pulse below the injury."
+  },
+  {
+    "id": "water_001",
+    "title": "Water Purification",
+    "category": "Hydration",
+    "tags": ["water", "drink", "purify", "filter"],
+    "keywords": ["water", "boil", "purify", "filter", "clean"],
+    "summary": "Methods to make found water safe for drinking in the wild.",
+    "steps": [
+      "1. Boil: Bring water to a rolling boil for at least 1 minute (3 mins at high altitude). This is the safest method.",
+      "2. Chemical: Use iodine or chlorine tablets according to package instructions.",
+      "3. Filtration: Use a portable filter with 0.1-0.2 micron pores to remove bacteria and protozoa.",
+      "4. Solar: In an emergency, leave clear water in a plastic bottle in direct sunlight for 6-8 hours (SODIS method)."
+    ],
+    "warnings": [
+      "Filtration alone may not remove viruses.",
+      "Avoid water with chemical smell or near industrial areas; these methods only kill biological threats."
+    ],
+    "whenToSeekHelp": "Seek help if you experience severe vomiting, diarrhea, or dark urine after drinking untreated water."
+  },
+  {
+    "id": "heat_001",
+    "title": "Heat Exhaustion & Stroke",
+    "category": "Environmental",
+    "tags": ["heat", "sun", "dehydration", "stroke"],
+    "keywords": ["heat", "sun", "exhaustion", "stroke", "hot"],
+    "summary": "Cool the body down rapidly to prevent organ damage.",
+    "steps": [
+      "1. Move to a cool, shaded area immediately.",
+      "2. Remove excess clothing.",
+      "3. Cool the person with water (spray, wet cloths) and fan them.",
+      "4. Apply ice packs to armpits, groin, and neck if available.",
+      "5. If conscious, give small sips of cool water or an electrolyte drink."
+    ],
+    "warnings": [
+      "Heat stroke is a medical emergency. If the person is confused or unconscious, it is Heat Stroke.",
+      "Do NOT give fluids to an unconscious person."
+    ],
+    "whenToSeekHelp": "Call for help immediately if the person has a high body temperature (>104F/40C), stops sweating, or becomes confused/seizure."
+  },
+  {
+    "id": "cold_001",
+    "title": "Hypothermia Treatment",
+    "category": "Environmental",
+    "tags": ["cold", "frostbite", "hypothermia", "winter"],
+    "keywords": ["cold", "shiver", "freeze", "warm", "winter"],
+    "summary": "Restore body heat gradually and prevent further heat loss.",
+    "steps": [
+      "1. Move to a warm, dry shelter.",
+      "2. Replace wet clothing with dry clothes/blankets.",
+      "3. Warm the center of the body (chest, neck, groin) first.",
+      "4. Give warm, non-alcoholic, decaffeinated drinks if the person is conscious.",
+      "5. Use skin-to-skin contact if blankets are unavailable."
+    ],
+    "warnings": [
+      "Do NOT rub or massage the person's limbs; this can cause cardiac arrest.",
+      "Do NOT use direct heat like hot water or heat lamps which can cause burns or shock."
+    ],
+    "whenToSeekHelp": "Seek emergency help if shivering stops but the person remains cold, or if they become confused/drowsy."
+  },
+  {
+    "id": "snake_001",
+    "title": "Snake Bite Basics",
+    "category": "Bites & Stings",
+    "tags": ["snake", "bite", "venom", "poison"],
+    "keywords": ["snake", "bite", "venom", "poison", "fang"],
+    "summary": "Minimize venom spread and get to a hospital fast.",
+    "steps": [
+      "1. Move away from the snake's striking distance.",
+      "2. Keep the person calm and minimize movement.",
+      "3. Keep the bite location at or slightly below the level of the heart.",
+      "4. Remove rings or tight clothing as swelling will occur.",
+      "5. Clean the wound gently but do not flush with water."
+    ],
+    "warnings": [
+      "Do NOT try to catch the snake.",
+      "Do NOT use a tourniquet or ice.",
+      "Do NOT cut the wound or try to suck out the venom."
+    ],
+    "whenToSeekHelp": "All snake bites should be treated as emergencies. Go to a hospital immediately."
+  },
+  {
+    "id": "lost_001",
+    "title": "Getting Lost Outdoors",
+    "category": "Survival",
+    "tags": ["lost", "forest", "navigation", "mountain"],
+    "keywords": ["lost", "forest", "navigation", "mountain", "signal"],
+    "summary": "S.T.O.P strategy to survive and be found.",
+    "steps": [
+      "1. Sit: Sit down and calm yourself.",
+      "2. Think: How did you get here? What landmarks did you see?",
+      "3. Observe: Look for shelter, water, and potential hazards. Check your supplies.",
+      "4. Plan: Decide whether to stay put (recommended) or move. If staying, start preparing shelter and signals."
+    ],
+    "warnings": [
+      "Staying put is almost always safer than wandering further into the unknown.",
+      "Don't travel at night."
+    ],
+    "whenToSeekHelp": "If you are not found by sunset, prepare for an overnight stay and prioritize warmth."
+  },
+  {
+    "id": "signal_001",
+    "title": "Signaling for Rescue",
+    "category": "Survival",
+    "tags": ["rescue", "signal", "help", "flare"],
+    "keywords": ["rescue", "signal", "help", "mirror", "fire"],
+    "summary": "Attract attention to your location using visual and auditory signals.",
+    "steps": [
+      "1. Ground Signals: Create a large 'X' or 'SOS' using rocks, logs, or digging in contrast with the ground.",
+      "2. Mirror: Use a signal mirror or any shiny object to flash sunlight toward planes or rescuers.",
+      "3. Fire: Build three fires in a triangle (international distress signal). Use green boughs for thick white smoke during the day.",
+      "4. Sound: Use a whistle (three blasts) or yell in groups of three."
+    ],
+    "warnings": [
+      "Don't exhaust yourself yelling; a whistle is far more effective and less tiring."
+    ],
+    "whenToSeekHelp": "Signal immediately if you see or hear potential rescuers."
+  }
+]
